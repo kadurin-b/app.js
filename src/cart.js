@@ -1,3 +1,5 @@
 function cart() {
-  console.log("hello cart");
+  return console.log("this is cart");
 }
+
+export default cart;
