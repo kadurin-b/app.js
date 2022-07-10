@@ -1,0 +1,17 @@
+{
+  "name": "node_js_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .src/index.js",
+    "build": "webpack --mode production",
+    "watch": "webpack --watch --mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
