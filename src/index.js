@@ -1,4 +1,6 @@
-import slider from "./slider.js";
+import { renderUserList } from "./data";
+
+renderUserList();
 
 
-slider();
+

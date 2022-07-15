@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer src="bundle.js"></script>
+  <style>
+    body {
+      height: 100vh;
+      background-image: linear-gradient(to bottom right, rgb(255, 72, 0), orange);
+    }
+
+    li {
+      list-style: none;
+    }
+    li:nth-child(1) {
+      width: 5%;
+    }
+    li:nth-child(3) {
+      width: 5%;
+    }
+    li:nth-child(5) {
+      width: 10%;
+    }
+    li:nth-child(even) {
+      width: 25%;
+    }
+
+    .list-row { 
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+  </style>
+  <title>WebPack Project</title>
+</head>
+<body>
+  <h1>WebPack 1st project</h1>
+  <div class="user-list">
+    <ul class="list-row">
+      <li>Id</li>
+      <li>Name</li>
+      <li>Age</li>
+      <li>E-mail</li>
+      <li>Country</li>
+      <li>Company</li>
+    </ul>
+  </div>
+</body>
+</html>
